@@ -1,19 +1,19 @@
-// import HomePod from "./animations/homepod/HomePod";
-// import Banners from "./banners/Banners";
-// import Categories from "./Categories";
-// import Discount from "./discount/Discount";
-// import Featured from "./featured/Featured";
-// import Related from "./related/Related";
-// import Mobile from "./single-product/mobile/Mobile";
-// import Tablet from "./single-product/tablet/Tablet";
-// import Watch from "./single-product/watch/Watch";
-// import Skills from "./skills/Skills";
-// import Today from "./today/Today";
+import HomePod from "./animations/homepod/HomePod";
+import Banners from "./banners/Banners";
+import Categories from "./Categories";
+import Discount from "./discount/Discount";
+import Featured from "./featured/Featured";
+import Related from "./related/Related";
+import Mobile from "./single-product/mobile/Mobile";
+import Tablet from "./single-product/tablet/Tablet";
+import Watch from "./single-product/watch/Watch";
+import Skills from "./skills/Skills";
+import Today from "./today/Today";
 
 const Sections = () => {
     return (
         <div className="pb-40">
-            {/* <Banners />
+            <Banners />
             <Categories />
             <Today />
             <HomePod />
@@ -23,7 +23,7 @@ const Sections = () => {
             <Watch />
             <Discount />
             <Featured />
-            <Tablet /> */}
+            <Tablet />
         </div>
     );
 };
